@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TP1 - Calculadora</string>
+    <string name="error">Erro!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

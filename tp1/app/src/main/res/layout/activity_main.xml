@@ -1,0 +1,209 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context="fatec.tp1.danielapochini.MainActivity">
+
+    <TextView
+        android:id="@+id/texto"
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#D5D5D5"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:textColor="#6b2d59"
+        android:textAlignment="center"
+        android:typeface="sans"
+        android:inputType="number|numberDecimal" />
+
+    <LinearLayout
+        android:id="@+id/Layout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp"
+        android:layout_marginTop="16dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:backgroundTint="#f97ca8"
+                android:id="@+id/BtnExp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="^"
+                android:clickable="false" />
+            <Button
+                android:id="@+id/Btn7"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/Btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="4"
+                android:backgroundTint="#ff005a"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/Btn1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:backgroundTint="#ff005a"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/Btn0"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:clickable="true" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:backgroundTint="#f97ca8"
+                android:id="@+id/BtnRaiz"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="√"
+                />
+            <Button
+                android:id="@+id/Btn8"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/Btn5"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/Btn2"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/BtnPonto"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="."
+                android:clickable="true" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:backgroundTint="#f97ca8"
+                android:id="@+id/BtnDEL"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEL"
+                />
+            <Button
+                android:id="@+id/Btn9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="9"
+                android:backgroundTint="#ff005a"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/Btn6"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/Btn3"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/BtnIgual"
+                android:backgroundTint="#ff005a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="="
+                android:clickable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:backgroundTint="#f97ca8"
+                android:id="@+id/BtnLimpar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AC"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/BtnDiv"
+                android:backgroundTint="#f97ca8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="/"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/BtnMult"
+                android:backgroundTint="#f97ca8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="*"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/BtnMenos"
+                android:backgroundTint="#f97ca8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-"
+                android:clickable="true" />
+            <Button
+                android:id="@+id/BtnSoma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:backgroundTint="#f97ca8"
+                android:clickable="true" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
