@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fatec.tp2.danielapochini"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="TP2 Intents Implicitas"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="fatec.tp2.danielapochini.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="fatec.tp2.danielapochini.Browser"
+            android:label="@string/title_activity_browser" >
+        </activity>
+        <activity
+            android:name="fatec.tp2.danielapochini.Mapa"
+            android:label="@string/title_activity_mapa" >
+        </activity>
+        <activity
+            android:name="fatec.tp2.danielapochini.Email"
+            android:label="@string/title_activity_email" >
+        </activity>
+        <activity
+            android:name="fatec.tp2.danielapochini.Store"
+            android:label="@string/title_activity_store" >
+        </activity>
+        <activity
+            android:name="fatec.tp2.danielapochini.Sobre"
+            android:label="@string/title_activity_sobre" >
+        </activity>
+        <activity
+            android:name="fatec.tp2.danielapochini.Google"
+            android:label="@string/title_activity_google" >
+        </activity>
+        <activity
+            android:name="fatec.tp2.danielapochini.Caminho"
+            android:label="@string/title_activity_caminho" >
+        </activity>
+        <activity
+            android:name="fatec.tp2.danielapochini.SMS"
+            android:label="@string/title_activity_sms" >
+        </activity>
+    </application>
+
+</manifest>

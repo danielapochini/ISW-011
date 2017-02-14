@@ -1,0 +1,7 @@
+#Tue Feb 14 13:03:42 BRST 2017
+base.0=C\:\\Users\\Timepix\\Desktop\\Faculdade\\Android\\TP2Intents\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_44228a46485e2e5e3f7ecf167c3702bac0fda2fc
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Timepix\\Desktop\\Faculdade\\Android\\TP2Intents\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_aca8482ab5bcd90e462e433b739ac1eb620277fe\\classes.dex
+base.1=C\:\\Users\\Timepix\\Desktop\\Faculdade\\Android\\TP2Intents\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_aca8482ab5bcd90e462e433b739ac1eb620277fe
+file.0=C\:\\Users\\Timepix\\Desktop\\Faculdade\\Android\\TP2Intents\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_44228a46485e2e5e3f7ecf167c3702bac0fda2fc\\classes.dex

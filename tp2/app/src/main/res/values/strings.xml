@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">TP2 - Intents</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_browser">Navegador</string>
+    <string name="title_activity_caminho">Caminho</string>
+    <string name="title_activity_mapa">Mapa</string>
+    <string name="title_activity_sms">SMS</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_store">Play Store</string>
+    <string name="title_activity_sobre">Sobre</string>
+    <string name="title_activity_google">Google</string>
+    <string name="user">\u0040danielapochini</string>
+    <string name="nome">Daniela Pereira Pochini</string>
+    <string name="sobre">Sobre o App</string>
+    <string name="procureApp">Procure por um aplicativo</string>
+    <string name="playStore">Play Store</string>
+    <string name="smsPara">Para</string>
+    <string name="smsMensagem">Mensagem</string>
+    <string name="email">Email</string>
+    <string name="emailTxtAssunto">Assunto do Email</string>
+    <string name="emailAssunto">Assunto</string>
+    <string name="emailExemplo">exemplo@ex.com.br</string>
+    <string name="smsCorpo">Corpo da mensagem</string>
+    <string name="smsNum">+5511982789741</string>
+    <string name="caminho">Guiar Caminho</string>
+    <string name="caminhoRota">Digite o endereço completo de destino</string>
+    <string name="caminhoExemplo">Praia Grande</string>
+    <string name="navegador">Browser</string>
+    <string name="navegadorEndereco">Digite o endereço</string>
+    <string name="mapa">Mapa</string>
+    <string name="mapaLat">Latitude</string>
+    <string name="mapaLong">Longitude</string>
+    <string name="mapaTxtLat">Digite a Latitude</string>
+    <string name="mapaTxtLong">Digite a Longitude</string>
+    <string name="pesquisaTxt">Procure por algo</string>
+    <string name="pesquisa">Busca Google</string>
+    <string name="descricao">Botão Github - Serviço de Web Hosting Compartilhado</string>
+    <string name="SMS">SMS</string>
+    <string name="dev">Desenvolvido por:</string>
+    <string name="btnAcessar">Acessar</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="btnPesquisar">Pesquisar</string>
+    <string name="btnEnviar">Enviar</string>
+
+</resources>

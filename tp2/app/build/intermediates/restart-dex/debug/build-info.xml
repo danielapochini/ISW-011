@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="959490563153758"
+    token="6923228996494979729" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="958888608967798"
+        verifier="BINARY_MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="C:\Users\Timepix\Desktop\Faculdade\Android\TP2Intents\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="959237981605324"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\Timepix\Desktop\Faculdade\Android\TP2Intents\app\build\intermediates\instant-run-resources\resources-debug.ir.ap_"
+            type="RESOURCES" />
+    </build>
+    <build
+        timestamp="959476293080974"
+        verifier="FIELD_TYPE_CHANGE" >
+        <artifact
+            location="C:\Users\Timepix\Desktop\Faculdade\Android\TP2Intents\app\build\intermediates\transforms\dex\debug\folders\1000\5\slice_5\classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="959490563153758" />
+
+</instant-run>
